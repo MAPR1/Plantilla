@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Vertical Side Navigation Bar</title>
+    <title>Súper Discom</title>
     <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
@@ -85,11 +85,6 @@
               </li>
             </ul>
 
-            <!-- <ul class="social">
-					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-				</ul> -->
           </div>
         </div>
         <div class="main_container">
@@ -105,12 +100,9 @@
             <div class="container-fluid">
               <div class="row content">
                 <div class="col-md-12">
-                  <div class="dashboard_header">
-                    <h3>Dashboards</h3>
-                    <p>Friday, 14 February 2020</p>
-                  </div>
+                <h3>Componentes</h3>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                   <div class="select_wrap">
                     <label>Select Listing Type</label>
                     <select
@@ -124,6 +116,45 @@
                       <option value="green">Green</option>
                     </select>
                   </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="field">
+                    <input type="text" class="form-group" required autocomplete="off" id="nom">
+                    <label for="nom" title="Nombre completo" data-title=""></label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="field">
+                    <input type="number" class="form-group"  required autocomplete="off" id="num">
+                    <label for="num" title="Number" data-title=""></label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="field">
+                    <textarea name="text" placeholder="textarea" class="form-group" id="" cols="30" rows="1"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <input class="inp-cbx" id="tintoreria" type="checkbox" style="display: none">
+                  <label class="cbx" for="tintoreria"><span class="border-none">
+                      <svg width="12px" height="10px" viewBox="0 0 12 10">
+                        <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                      </svg>
+                    </span><span class="">Checkbox</span>
+                  </label>
+                </div>
+                <div class="col-md-3">
+                 <div class="tg_container">
+                  <input type="checkbox" name="toggle" class="tg_inp">
+                 <label for=" toggle">Toggle Mamalón</label>
+                 </div>
+
+                </div>
+                <div class="col-md-3">
+                  <button type="button" class="btn btn-p">Primary</button>
+                </div>
+                <div class="col-md-3">
+                  <button type="button" class="btn btn-p" disabled>Primary</button>
                 </div>
               </div>
             </div>
